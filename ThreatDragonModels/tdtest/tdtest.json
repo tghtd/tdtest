@@ -18,8 +18,8 @@
                 "height": 100
               },
               "position": {
-                "x": 173,
-                "y": 361
+                "x": 237,
+                "y": 292
               },
               "angle": 0,
               "id": "e27efe69-fa41-4984-8694-5a49fff8e7b5",
@@ -30,7 +30,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 0"
+                  "text": "MongoDB"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -45,7 +45,7 @@
               },
               "position": {
                 "x": 464,
-                "y": 58
+                "y": 59
               },
               "angle": 0,
               "id": "92775f5b-4e7b-4c58-a1c9-58a240926b31",
@@ -56,7 +56,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 1"
+                  "text": "Auth Server\n(Auth0)"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -82,17 +82,96 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "actor 2"
+                  "text": "Browser"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 210,
+                "y": 489
+              },
+              "angle": 0,
+              "id": "677b0dc8-f875-4c2a-83b7-c869cd72a1d7",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 3"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 43,
+                "y": 311
+              },
+              "target": {
+                "x": 268,
+                "y": 182
+              },
+              "vertices": [
+                {
+                  "x": 156,
+                  "y": 281
+                }
+              ],
+              "id": "d4f1426c-a213-45e4-a642-b42efeaa42ff",
+              "z": 5,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 295,
+                "y": 26
+              },
+              "target": {
+                "x": 271,
+                "y": 183
+              },
+              "vertices": [],
+              "id": "203b54d1-5972-43fa-8ed7-f67b61c4a2b5",
+              "z": 6,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 596,
+                "y": 345
+              },
+              "target": {
+                "x": 269,
+                "y": 182
+              },
+              "vertices": [],
+              "id": "b081aafb-3f4b-41a0-bfe6-eb57df4c5dbb",
+              "z": 7,
+              "attrs": {}
             }
           ]
         },
         "size": {
-          "height": 590,
+          "height": 599,
           "width": 790
         }
       }
